@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/Task-Manager-app/',  // Ensure this is correctly set for GitHub Pages
 });
